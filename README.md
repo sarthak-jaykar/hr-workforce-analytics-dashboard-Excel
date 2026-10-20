@@ -86,7 +86,7 @@ HR-Workforce-Analytics/
 
 -Dataset/ — Original synthetic HR dataset, including raw employee records, reference tables, and documented data-quality anomalies.
 
--Workbook/ — Analytical Excel workbook containing cleaned data, lookup tables, KPI calculations, department-level analysis, and the executive dashboard.
+-Excel Workbook/ — Analytical Excel workbook containing cleaned data, lookup tables, KPI calculations, department-level analysis, and the executive dashboard.
 
 -Screenshots/ — Visual evidence of the dashboard, workforce analysis, data preparation, QA methodology, and recruitment analysis.
 
