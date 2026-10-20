@@ -78,8 +78,8 @@ HR-Workforce-Analytics/
 │   ├── 04-recruitment-retention-analysis.png
 │   ├── 05-cleaned-employee-data.png
 │   └── 06-data-dictionary-qa.png
-├── README.md
-└── Validation_Report.md
+└── README.md
+
 ```
 
 ## Folder Contents
@@ -92,15 +92,12 @@ HR-Workforce-Analytics/
 
 -README.md — Project overview, business problem, methodology, KPI definitions, findings, recommendations, and instructions.
 
--Validation_Report.md — Data-quality checks, calculation reconciliation, validation results, and known technical limitations.
-
 ## Methodology and limitations
 
 - The `Cleaned_Data` sheet preserves a separate raw-data baseline and records cleaned/enriched values and formula-derived fields.
 - Attrition metrics use two different denominators: FY2025 exits divided by average FY2025 headcount, and cumulative exits divided by the 1,450-person historical cohort. Do not compare them as if they were the same measure.
 - The workbook uses formula-driven summary matrices rather than embedded native PivotTables. Dropdowns are used for dashboard filtering; they are not slicers.
 - The workbook includes Power Query M and VBA examples in `Methodology_QA` for optional learning. They are not an embedded Power Query refresh pipeline or an enabled VBA macro.
-- See [`Validation_Report.md`](Validation_Report.md) for independent checks, formula recalculation notes, and remaining limitations.
 
 ## Tools
 
